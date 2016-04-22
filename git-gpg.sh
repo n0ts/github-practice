@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -z $1 ]; then
-    echo "Usage gpg2-id.sh <email>"
+    echo "Usage $(basename $0) <email>"
     exit 1
 fi
 
