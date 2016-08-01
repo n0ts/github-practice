@@ -20,6 +20,3 @@ fi
 git config --local gpg.program $gpg
 git config --local user.signingkey $ggp_pub_key_id
 git config --local commit.gpgsign true
-
-echo "done - $email $(git config user.signingkey)"
-
