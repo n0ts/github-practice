@@ -1,4 +1,3 @@
 # GitHub Practice
 
 README
-AWS
